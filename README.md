@@ -1,2 +1,5 @@
-# CartolinePrimaGuerraCodificate
-Codifica basata su Edizione image-based diplomatica-interpretativa per l'esame di Codifica dei testi, per il corso di Informatica Umanistica, 2022 , provenenti dal Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerra Mondiale, situato presso La Spezia (SP). 
+# Progetto Codifica di Testi InfoUma
+Encoding of an image-based diplomatic-interpretative edition created for the exam of Codifica di Testi 2021/2022, in the course of Informatica Umanistica of Pisa University.
+
+Coder: Michele De Giorgi
+Coder: Ali Al Jabri
