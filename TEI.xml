@@ -1,0 +1,1037 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
+<?xml-stylesheet type="text/xsl" href="transformation.xsl"?>
+
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+    <!-- HEADER DEL PROGETTO -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cimeli garibaldini e della Prima Guerra Mondiale</title>
+                <respStmt>
+                    <resp>Trascrittore</resp>
+                    <name type="person" xml:id="Pers_AJ">Ali Al Jabri</name>
+                    <idno>587440</idno> 
+                </respStmt>
+
+                <respStmt>
+                    <resp>Trascrittore</resp>
+                    <name type="person" xml:id="Pers_MDG">Michele De Giorgi</name>
+                    <idno>597916</idno> 
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Ente di Appartenenza</resp>
+                    <name type="place" xml:id="Place_SP">Comune della Spezia</name>
+                </respStmt>
+            </titleStmt>
+            
+            <editionStmt>
+                <edition>Edizione image-based diplomatica-interpretativa per l'esame di Codifica dei testi, per il corso di Informatica Umanistica,
+                    <date>2022</date>
+                </edition>
+                
+                <respStmt>
+                    <resp>Trascrittore</resp>
+                    <name ref="#Pers_AJ"> Ali Al Jabri </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Trascrittore</resp>
+                    <name ref="#Pers_MDG"> Michele De Giorgi</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Compilatore</resp>
+                    <name xml:id="Pers_TC">Tommaso Castagneto</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico</resp>
+                    <name xml:id="Pers_GP">Giacomo Paolicchi</name>
+                    <name xml:id="Pers_ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile</resp>
+                    <name xml:id="Pers_ER">E. Ratti</name>
+                </respStmt>
+            </editionStmt>
+            
+            <publicationStmt>
+                <publisher>Università di Pisa</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <date when="2022">2022</date>
+                <availability status="restricted">
+                    <p>Available under licence only</p>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier> 
+                        <country>Italia</country>
+                        <settlement type="city">La Spezia (SP)</settlement>
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerra Mondiale</repository>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <!-- CODIFICA PRIMA CARTOLINA -->
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Un dejeneur breton</title>
+                    <respStmt>
+                        <resp>Trascrittore</resp>
+                        <name ref="#Pers_AJ"> Ali Al Jabri </name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Trascrittore</resp>
+                        <name ref="#Pers_MDG"> Michele De Giorgi</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Ente di Appartenenza</resp>
+                        <name type="place" ref="#Place_SP">Comune della Spezia</name>
+                    </respStmt>
+                </titleStmt>
+                
+                <editionStmt>
+                    <edition>Edizione digitale diplomatica-interpretativa per l'esame di Codifica dei testi, per il corso di Informatica Umanistica,
+                        <date>2022</date>
+                    </edition>
+                    
+                    <respStmt>
+                        <resp>Trascrittore</resp>
+                        <name ref="#Pers_AJ"> Ali Al Jabri </name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Trascrittore</resp>
+                        <name ref="#Pers_MDG"> Michele De Giorgi</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Compilatore</resp>
+                        <name ref="#Pers_TC">Tommaso Castagneto</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Responsabile scientifico</resp>
+                        <name ref="#Pers_GP">Giacomo Paolicchi</name>
+                        <name ref="#Pers_ES">Enrica Salvatori</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Funzionario responsabile</resp>
+                        <name ref="#Pers_ER">E. Ratti</name>
+                    </respStmt>
+                </editionStmt>
+                
+                <publicationStmt>
+                    <publisher>Università di Pisa</publisher>
+                    <pubPlace>Pisa</pubPlace>
+                    <date when="2022">2022</date>
+                    <availability status="restricted">
+                        <p>Available under licence only</p>
+                    </availability>
+                </publicationStmt>
+                
+                <sourceDesc>
+                    <bibl type="Cartolina" subtype="Cartolina_Artistica">
+                        <title>Un dejeneur breton</title>
+                        <author>
+                            <persName>
+                                <surname>Brunet</surname>
+                                <forename>Jean</forename>
+                            </persName>        
+                        </author>
+                        <textLang>Italiano</textLang>
+                    </bibl>
+
+                    <msDesc>
+                        <msIdentifier> 
+                            <country>Italia</country>
+                            <settlement type="city">La Spezia (SP)</settlement>
+                            <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerra Mondiale</repository>
+                            <idno>7694_052_001/002</idno>
+                        </msIdentifier>
+
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <objectType>Cartolina</objectType>
+                                        <material>Carta</material>
+                                        <dimensions unit="cm">
+                                            <height>9</height>
+                                            <width>14</width>
+                                        </dimensions>
+                                        <stamp> 
+                                            <orgName type="public" xml:id="Org_PI">Poste Italiane</orgName>
+                                            <title>Effigie di Vittorio Emanuele III volta a sinistra</title>
+                                            <date when="1906">1906</date>
+                                            <dimensions unit="cm">
+                                                <height>24</height>
+                                                <width>20</width>
+                                            </dimensions>
+                                            <figure>
+                                                <figDesc>Effigie di Vittorio Emanuele III volta a sinistra di colore verde</figDesc>
+                                            </figure>
+                                        </stamp>
+                                    </support>
+                                    <condition>Buono</condition>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                    
+                    <listPerson>
+                        <person xml:id="Pers_G">
+                            <persName>
+                                <forename>Giovanni</forename>
+                            </persName>
+                            <sex>M</sex>
+                        </person>
+                        <person xml:id="Pers_OT">
+                            <persName>
+                                <forename>Oliva</forename>
+                                <surname>Turtura</surname>
+                            </persName>
+                            <sex>F</sex>
+                        </person>
+                    </listPerson>
+
+                    <listPlace>
+                        <place xml:id="Place_RV">
+                            <placeName>Ravenna</placeName>
+                            <settlement type="Location">Città</settlement>
+                            <district type="City">Ravenna</district>
+                            <district type="Province">RV</district>
+                            <district type="regione">Emilia Romagna</district>
+                            <country key="Nation">IT</country>
+                        </place>
+
+                        <place xml:id="Place_LO">
+                            <placeName>Lodi</placeName>
+                            <settlement type="Location">Città</settlement>
+                            <district type="City">Lodi</district>
+                            <district type="Province">LO</district>
+                            <district type="regione">Lombardia</district>
+                            <country key="Nation">IT</country>
+                        </place>                        
+                    </listPlace>
+                </sourceDesc>
+            </fileDesc>
+            
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="#Pers_G"/>
+                        <placeName ref="#Place_LO"/>
+                        <date when="1917-01-07"> 07/01/1917</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="#Pers_OT" />
+                        <placeName ref="#Place_RV" />
+                    </correspAction>
+                </correspDesc>
+                
+                <langUsage>
+                    <language ident="it-IT">italiano</language>
+                    <language ident="fr-FR">francese</language>
+                    <language ident="de-DE">tedesco</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+
+        <facsimile xml:id="Cart_052">
+            <surfaceGrp> <!--Raggruppa i due surface fronte e retro -->
+                <surface xml:id="Cart_052F" type="front"> <!-- Definisce una superficie di scrittura espressa attraverso coordinate -->
+                    <graphic url="imgs/7694-052F.jpg" width="574px" height="373px" />
+                </surface>
+
+                <surface xml:id="Cart_052R" type="retro">
+                    <graphic url="imgs/7694-052R.jpg" width="574px" height="373px" />
+                    <!-- Numero del catalogatore aggiunto successivamente -->
+                    <zone xml:id="Added_NumCart" ulx="10" uly="1" lrx="39" lry="18" />
+                    <!-- Timbro postale -->
+                    <zone xml:id="Added_Timbro" points='442,32 435,53 435,77 441,102 458,117 472,122 488,127 520,122 545,97 556,66 550,40 536,21 520,10 496,7 473,10 458,19'/>
+                    <!-- Francobollo -->
+                    <zone xml:id="Added_Francobollo" ulx="458" uly="0" lrx="563" lry="77" />
+                    <!-- Intestazione: Gentilissima Sig. -->
+                    <zone xml:id="Header_Saluti" ulx="258" uly="75" lrx="475" lry="147"/>
+                    <!-- Intestazione: Oliva Turtura -->
+                    <zone xml:id="Header_NomeDest" ulx="263" uly="152" lrx="558" lry="196" />
+                    <!-- Intestazione: Via Girolamo Rossi 58-->
+                    <zone xml:id="Header_IndirizzoDest" ulx="268" uly="198" lrx="564" lry="268"/>
+                    <!-- Intestazione: Ravenna -->
+                    <zone xml:id="Header_CittaDest" ulx="274" uly="272" lrx="548" lry="350"/>
+                    <!-- Lettere appuntate -->
+                    <zone xml:id="Content_LettApp" ulx="225" uly="37" lrx="255" lry="132"/> 
+                    <!-- Data della scrittura -->
+                    <zone xml:id="Content_DataScrittura" ulx="208" uly="147" lrx="261" lry="291"/>
+                    <!-- Contenuto:  -->
+                    <zone xml:id="Content_Riga1" ulx="139" uly="20" lrx="197" lry="284"/>
+                    <!-- Firma: Giovannino-->
+                    <zone xml:id="Content_Firma" ulx="36" uly="21" lrx="131" lry="301"/>
+                </surface>
+            </surfaceGrp>
+        </facsimile>
+
+
+        <text type="cartolina">
+            <front facs="#Cart_052F">
+                <figure>
+                    <graphic url='imgs/7694-052F.jpg'/>
+                    <figDesc>Anziani e bambini fanno colazione</figDesc>
+                    <head>Un dejeneur breton</head>
+                </figure>
+            </front>
+        
+            <body xml:lang="ita">
+                <div type="retro" facs="#Cart_052R">
+                    <fw type="Numero Cartolina" place="top-left" facs="#Added_NumCart">Il numero 52, nell'angolo superiore sinistro, 
+                        rappresenta il numero di catalogazione, aggiunto in successione dal catalogatore
+                    </fw>
+
+                    <div type="Destination">
+                        <p>
+                            <stamp type="postmark" facs="#Added_Timbro"> 
+                                <damage> 
+                                    Post  
+                                    <unclear reason="faded">a Mili</unclear>
+                                    tare
+                                    <gap xml:id="Unknown_DivisionNumber" reason="illegible"></gap> 
+                                    Divisione
+                                </damage>
+                                <note>Numero della divisione illegibile</note>
+
+                                <date>07.01.1917</date>
+                            </stamp>
+                            <stamp type="postage" facs="#Added_Francobollo">
+                                Francobollo, emesso da poste italiane, da 5 centesimi di colore verde che rappresenta 
+                                l'effigie di Vittorio Emanuele III volta a sinistra
+                            </stamp>
+                        </p>
+                    </div>
+
+                    <div type="Message">
+                        <opener>
+                            <lb xml:id="Line_Content_DataProvincia"/>
+                            <dateline>
+                                <placeName xml:id="Int_PMitt" facs="#Content_LettApp" ref="#Place_LO">Lodi</placeName>
+                                <certainty target="#Int_PMitt" locus="value" degree="0.7"/>
+                                <date facs="#Content_DataScrittura" when="1917-1-6">li 6/1/1917</date>
+                            </dateline>
+                            
+                            <lb xml:id="Line_Header_Saluti" facs="#Header_Saluti" />
+                            <salute>Gentilissima sig.</salute>
+                        </opener> 
+
+                        <ab n="ab_052R">
+                            <address>
+                                <lb xml:id="Line_Header_NomeDest" facs="#Header_NomeDest"/>
+                                <addrLine><persName ref="#Pers_OT">Oliva Turtura</persName></addrLine>
+                                <lb xml:id="Line_Header_IndirizzoDest" facs="#Header_IndirizzoDest" />
+                                <addrLine>Via Girolamo Rossi 58</addrLine>
+                                <lb xml:id="Line_Header_CittaDest" facs="#Header_CittaDest" />
+                                <addrLine><placeName ref="#Place_RV"><hi rend="underline">Ravenna</hi></placeName></addrLine>
+                            </address>
+                        </ab>
+
+                        <ab n="ab_052R" xml:id="Content">
+                            <lb xml:id="Line_Content_Riga1" facs="#Content_Riga1" /> 
+                            <w xml:id="Unknown_ContentWord">
+                                <c xml:id="Content_Letter1">O</c>  
+                                <certainty target="Content_Letter1" locus="value" degree="0.3"/>
+                                <c xml:id="Content_Letter2">l</c>  
+                                <certainty target="Content_Letter2" locus="value" degree="0.7"/>
+                                <c xml:id="Content_Letter3">o</c>  
+                                <certainty target="Content_Letter3" locus="value" degree="0.6"/>
+                                <c xml:id="Content_Letter4">l</c>  
+                                <certainty target="Content_Letter4" locus="value" degree="0.2"/>
+                                <c xml:id="Content_Letter5">u</c>  
+                                <certainty target="Content_Letter5" locus="value" degree="0.5"/>
+                                <c xml:id="Content_Letter6">t</c>  
+                                <certainty target="Content_Letter6" locus="value" degree="0.9"/>
+                                <c xml:id="Content_Letter7">i</c>  
+                                <certainty target="Content_Letter7" locus="value" degree="0.9"/>
+                                <c xml:id="Content_Letter8">ss</c>  
+                                <certainty target="Content_Letter8" locus="value" degree="0.9"/>
+                                <c xml:id="Content_Letter9">i</c>  
+                                <certainty target="Content_Letter9" locus="value" degree="0.9"/>
+                                <c xml:id="Content_Letter10">m</c>  
+                                <certainty target="Content_Letter10" locus="value" degree="0.5"/>
+                                <c xml:id="Content_Letter11">a</c>  
+                                <certainty target="Content_Letter11" locus="value" degree="0.6"/>
+                                <c xml:id="Content_Letter12">n</c>  
+                                <certainty target="Content_Letter12" locus="value" degree="0.6"/>
+                                <c xml:id="Content_Letter13">n</c>  
+                                <certainty target="Content_Letter13" locus="value" degree="0.4"/>
+                                <c xml:id="Content_Letter14">t</c>  
+                                <certainty target="Content_Letter14" locus="value" degree="0.9"/>
+                                <c xml:id="Content_Letter15">e</c>  
+                                <certainty target="Content_Letter15" locus="value" degree="0.2"/>
+                            </w>
+                            <note type="certainty" resp="#Pers_MDG">
+                                Poiché non è chiara la calligrafia del mittente, abbiamo codificato
+                                lettera per lettera quella che si presuppone essere una singola parola, 
+                                definendo un grado di incertezza per ogni singola lettera.
+                            </note>
+                        </ab>
+
+                        <closer>
+                            <lb xml:id="Line_Content_Firma" facs="#Content_Firma" />
+                            <signed>
+                                <hi rend="underline" xml:id="firmagc">
+                                    <persName ref="#Pers_G">Giovannino</persName>
+                                </hi>
+                            </signed>
+                      </closer>
+                    </div>
+                </div>
+            </body>
+        </text>
+    </TEI>
+
+    <!-- CODIFICA SECONDA CARTOLINA -->
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Cavallerizza con cavallo</title>
+                    <respStmt>
+                        <resp>Trascrittore</resp>
+                        <name ref="#Pers_AJ"> Ali Al Jabri </name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Trascrittore</resp>
+                        <name ref="#Pers_MDG"> Michele De Giorgi</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Ente di Appartenenza</resp>
+                        <name type="place" ref="#Place_SP">Comune della Spezia</name>
+                    </respStmt>
+                </titleStmt>
+                
+                <editionStmt>
+                    <edition>Edizione digitale diplomatica-interpretativa per l'esame di Codifica dei testi, per il corso di Informatica Umanistica,
+                        <date>2022</date>
+                    </edition>
+                    
+                    <respStmt>
+                        <resp>Trascrittore</resp>
+                        <name ref="#Pers_AJ"> Ali Al Jabri </name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Trascrittore</resp>
+                        <name ref="#Pers_MDG"> Michele De Giorgi</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Compilatore</resp>
+                        <name ref="#Pers_TC">Tommaso Castagneto</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Responsabile scientifico</resp>
+                        <name ref="#Pers_GP">Giacomo Paolicchi</name>
+                        <name ref="#Pers_ES">Enrica Salvatori</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Funzionario responsabile</resp>
+                        <name ref="#Pers_ER">E. Ratti</name>
+                    </respStmt>
+                </editionStmt>
+                
+                <publicationStmt>
+                    <publisher>Università di Pisa</publisher>
+                    <pubPlace>Pisa</pubPlace>
+                    <date when="2022">2022</date>
+                    <availability status="restricted">
+                        <p>Available under licence only</p>
+                    </availability>
+                </publicationStmt>
+                
+                <sourceDesc>
+                    <bibl type="Cartolina" subtype="Cartolina_Artistica">
+                        <title>Cavallerizza con cavallo</title>
+                        <author>
+                            <persName>
+                                <surname>Giovanni</surname>
+                                <forename>Nanni</forename>
+                            </persName>        
+                        </author>
+                        <textLang>Italiano</textLang>
+                    </bibl>
+
+                    <msDesc>
+                        <msIdentifier> 
+                            <country>Italia</country>
+                            <settlement type="city">La Spezia (SP)</settlement>
+                            <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerra Mondiale</repository>
+                            <idno>7694_104_001/002</idno>
+                        </msIdentifier>
+
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <objectType>Cartolina</objectType>
+                                        <material>Carta</material>
+                                        <dimensions unit="cm">
+                                            <height>9</height>
+                                            <width>14</width>
+                                        </dimensions>
+                                        <stamp> 
+                                            <orgName type="public" ref="#Org_PI">Poste Italiane</orgName>
+                                            <title>Effigie di Vittorio Emanuele III volta a sinistra</title>
+                                            <date when="1906">1906</date>
+                                            <dimensions unit="cm">
+                                                <height>24</height>
+                                                <width>20</width>
+                                            </dimensions>
+                                            <figure>
+                                                <figDesc>Effigie di Vittorio Emanuele III volta a sinistra di colore verde</figDesc>
+                                            </figure>
+                                        </stamp>
+                                    </support>
+                                    <condition>Buono</condition>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                    
+                    <listPerson>
+                        <person xml:id="Pers_UNK">
+                            <persName>
+                                <forename>Sconosciuto</forename>
+                            </persName>
+                        </person>
+                        <person>
+                            <persName ref="#Pers_OT">
+                                <forename>Oliva</forename>
+                                <surname>Turtura</surname>
+                            </persName>
+                            <sex>F</sex>
+                        </person>
+                    </listPerson>
+
+                    <listPlace>
+                        <place>
+                            <placeName ref="#Place_RV">Ravenna</placeName>
+                            <settlement type="Location">Città</settlement>
+                            <district type="City">Ravenna</district>
+                            <district type="Province">RV</district>
+                            <district type="regione">Emilia Romagna</district>
+                            <country key="Nation">IT</country>
+                        </place>
+
+                        <place xml:id="Place_SGV">
+                            <placeName>San Giovanni Valdarno</placeName>
+                            <settlement type="Location">Città</settlement>
+                            <district type="City">San Giovanni Valdarno</district>
+                            <district type="Province">AR</district>
+                            <district type="regione">Toscana</district>
+                            <country key="Nation">IT</country>
+                        </place>        
+                    </listPlace>
+                </sourceDesc>
+            </fileDesc>
+            
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="#Pers_UNK"/>
+                        <placeName ref="#Place_SGV"/>
+                        <date when="1917-04-08">08/04/1917</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="#Pers_OT" />
+                        <placeName ref="#Place_RV" />
+                    </correspAction>
+                </correspDesc>
+                
+                <langUsage>
+                    <language ident="it-IT">italiano</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+
+        <facsimile xml:id="Cart_104">
+            <surfaceGrp> <!--Raggruppa i due surface fronte e retro -->
+                <surface xml:id="Cart_104F" type="front"> <!-- Definisce una superficie di scrittura espressa attraverso coordinate -->
+                    <graphic url="imgs/7694-104F.jpg" width="574px" height="373px" />
+                </surface>
+
+                <surface xml:id="Cart_104R" type="retro">
+                    <graphic url="imgs/7694-104R.jpg" width="574px" height="373px" />
+                    <!-- Numero del catalogatore aggiunto successivamente -->
+                    <zone xml:id="C2_Added_NumCart" ulx="414" uly="13" lrx="454" lry="41" />
+                     <!-- Timbro postale 2 -->
+                     <zone xml:id="C2_Added_Timbro2" points = '291,57 298,93 323,120 351,123 388,113 409,86 412,56 400,27 375,7 328,7 305,23' />
+                    <!-- Francobollo -->
+                    <zone xml:id="C2_Added_Francobollo" ulx="472" uly="26" lrx="558" lry="126" />
+                     <!-- Intestazione: Gentilissima Sig.ra -->
+                    <zone xml:id="C2_Header_Saluti" ulx="286" uly="162" lrx="452" lry="191" />
+                    <!-- Intestazione: Oliva Turtura -->
+                    <zone xml:id="C2_Header_NomeDest" ulx="293" uly="201" lrx="551" lry="240" />
+                     <!-- Intestazione: Via Girolamo Rossi 58-->
+                    <zone xml:id="C2_Header_IndirizzoDest" ulx="283" uly="244" lrx="556" lry="288" />
+                    <!-- Intestazione: Ravenna -->
+                    <zone xml:id="C2_Header_CittaDest" ulx="367" uly="291" lrx="570" lry="344" />
+                    <!-- Luogo -->
+                    <zone xml:id="C2_Content_LettApp" ulx="6" uly="20" lrx="155" lry="59"/> 
+                    <!-- Data della Scrittura -->
+                    <zone xml:id="C2_Content_DataScrittura" ulx="160" uly="26" lrx="249" lry="85" />
+                    <!-- Contenuto: Vivissimi -->
+                    <zone xml:id="C2_Content_Riga1" ulx="31" uly="88" lrx="169" lry="129" />
+                    <!-- Contenuto: Auguri e -->
+                    <zone xml:id="C2_Content_Riga2" ulx="65" uly="134" lrx="225" lry="163" />
+                    <!-- Contenuto: A lei e famiglia -->
+                    <zone xml:id="C2_Content_Riga3" ulx="40" uly="167" lrx="244" lry="208" />
+                    <!-- Contenuto: Mugi -->
+                    <zone xml:id="C2_Content_Riga4" ulx="46" uly="211" lrx="248" lry="255" />
+                     <!-- Cartolina: DGR -->
+                    <zone xml:id="C2_Postcard_Element1" ulx="243" uly="344" lrx="278" lry="364" />
+                     <!-- Cartolina: Proprietà artistica riservata -->
+                     <zone xml:id="C2_Postcard_Element2" ulx="8" uly="148" lrx="38" lry="347" />
+                </surface>
+            </surfaceGrp>
+        </facsimile>
+
+        <text type="cartolina">
+            <front facs="#Cart_104F">
+                <figure>
+                    <graphic url='imgs/7694-104F.jpg'/>
+                    <figDesc>Cavallerizza a fianco a cavallo</figDesc>
+                    <head>Cavallerizza con cavallo</head>
+                </figure>
+            </front>
+        
+            <body xml:lang="ita">
+                <div type="retro" facs="#Cart_104R">
+                    <fw type="Numero Cartolina" place="top-left" facs="#C2_Added_NumCart">Il numero 104, nell'angolo superiore destro, 
+                        rappresenta il numero di catalogazione, aggiunto in successione dal catalogatore
+                    </fw>
+
+                    <div type="Destination">
+                        <p>
+                            <stamp type="postmark" facs="#C2_Added_Timbro2">  
+                                <damage> 
+                                    S. Gio 
+                                    <unclear reason="faded">V in Val D'Arno</unclear>
+                                </damage>
+                                Arezzo
+                                <note>
+                                    Attraverso la decifrazione delle parole sbiadite all'interno
+                                    dei due timbri applicati sulla cartolina, si è arrivati alla conclusione
+                                    che la città di provenienza è San Giovanni Valdarno, indicato sui timbri.
+                                </note>
+                                <certainty target="Place_SGV" locus="value" degree="0.9"/>
+
+                                <date>08.04.1917</date>-3
+                            </stamp>
+                            <stamp type="postage" facs="#C2_Added_Francobollo">
+                                Francobollo, emesso da poste italiane, da 5 centesimi di colore verde che rappresenta 
+                                l'effigie di Vittorio Emanuele III volta a sinistra
+                            </stamp>
+                        </p>
+                    </div>
+
+                    <div type="Message">
+                        <opener>
+                            <dateline>
+                                <placeName xml:id="C2_Int_PMitt" facs="#C2_Content_LettApp" ref="#Place_SGV">Sangiovanni</placeName>
+                                <certainty target="#C2_Int_PMitt" locus="value" degree="0.7"/>
+                                <date facs="#C2_Content_DataScrittura" when="1917-4-7">7 IV 17</date>
+                                <certainty target="#C2_Content_DataScrittura" locus="value" degree="0.7"/>
+                            </dateline>
+                            
+                            <lb xml:id="C2_Line_Header_Saluti" facs="#C2_Header_Saluti" />
+                            <salute>Gentilissima sig ra</salute>
+                        </opener> 
+
+                        <ab n="ab_104R">
+                            <address>
+                                <lb xml:id="C2_Line_Header_NomeDest" facs="#C2_Header_NomeDest"/>
+                                <addrLine><persName ref="#Pers_OT">Oliva Turtura</persName></addrLine>
+                                <lb xml:id="C2_Line_Header_IndirizzoDest" facs="#C2_Header_IndirizzoDest" />
+                                <addrLine>Via Girolamo Rossi 58</addrLine>
+                                <lb xml:id="C2_Line_Header_CittaDest" facs="#C2_Header_CittaDest" />
+                                <addrLine><placeName ref="#Place_RV"><hi rend="underline">Ravenna</hi></placeName></addrLine>
+                            </address>
+                        </ab>
+
+                        <ab n="ab_104R" xml:id="C2_Content">    
+                            <lb xml:id="C2_Line_Content_Riga1" facs="#C2_Content_Riga1" /> 
+                            <w>Vivissimi</w>
+                            <lb xml:id="C2_Line_Content_Riga2" facs="#C2_Content_Riga2" /> 
+                            <w>auguri</w><w>e</w>
+                            <w>
+                                <c xml:id="C2_Content_w1_Letter1">n</c>  
+                                <certainty target="C2_Content_w1_Letter1" locus="value" degree="0.3"/>
+                                <c xml:id="C2_Content_w1_Letter2">o</c>  
+                                <certainty target="C2_Content_w1_Letter2" locus="value" degree="0.6"/>
+                                <c xml:id="C2_Content_w1_Letter3">b</c>  
+                                <certainty target="C2_Content_w1_Letter3" locus="value" degree="0.2"/>
+                                <c xml:id="C2_Content_w1_Letter4">i</c>  
+                                <certainty target="C2_Content_w1_Letter4" locus="value" degree="0.3"/>
+                                <c xml:id="C2_Content_w1_Letter5">l</c>  
+                                <certainty target="C2_Content_w1_Letter5" locus="value" degree="0.8"/>
+                                <c xml:id="C2_Content_w1_Letter6">i</c>  
+                                <certainty target="C2_Content_w1_Letter6" locus="value" degree="0.9"/>
+                            </w>
+                            <lb xml:id="C2_Line_Content_Riga3" facs="#C2_Content_Riga3" />
+                            <w>a</w><w>Lei</w><w>e</w><w>famiglia</w>
+                            <lb xml:id="C2_Line_Content_Riga4" facs="#C2_Content_Riga4" /> 
+                            <w>G.</w><w>Magi</w>
+                            <w>
+                                <c xml:id="C2_Content_w1_Letter1">M</c>  
+                                <certainty target="C2_Content_w2_Letter1" locus="value" degree="0.9"/>
+                                <c xml:id="C2_Content_w1_Letter2">o</c>  
+                                <certainty target="C2_Content_w2_Letter2" locus="value" degree="0.7"/>
+                                <c xml:id="C2_Content_w2_Letter3">f</c>  
+                                <certainty target="C2_Content_w2_Letter3" locus="value" degree="0.2"/>
+                                <c xml:id="C2_Content_w1_Letter4">i</c>  
+                                <certainty target="C2_Content_w2_Letter3" locus="value" degree="0.2"/>
+                                <c xml:id="C2_Content_w1_Letter5">v</c>  
+                                <certainty target="C2_Content_w2_Letter4" locus="value" degree="0.3"/>
+                                <c xml:id="C2_Content_w2_Letter6">l</c>  
+                                <certainty target="C2_Content_w2_Letter5" locus="value" degree="0.8"/>
+                                <c xml:id="C2_Content_w1_Letter7">a</c>  
+                                <certainty target="C2_Content_w2_Letter6" locus="value" degree="0.9"/>
+                            </w>       
+                            <note type="certainty" resp="#Pers_AJ">
+                                Poiché non è chiara la calligrafia del mittente, abbiamo codificato
+                                lettera per lettera quella che si presuppone essere una singola parola, 
+                                definendo un grado di incertezza per ogni singola lettera.
+                            </note>
+                        </ab>
+                    </div>
+
+                    <div type="Other_Elements">
+                        <p>
+                            <lb xml:id="C2_Line_Postcard_Element1" facs="#C2_Postcard_Element1" />   
+                            <fw><abbr>D.G.M.</abbr></fw>
+                            <lb xml:id="C2_Line_Postcard_Element2" facs="#C2_Postcard_Element2" />  
+                            <fw>Proprietà artistica riservata N° 150-1</fw>
+                            
+                        </p>    
+                    </div>
+                </div>
+            </body>
+        </text>
+    </TEI>
+
+    <!-- CODIFICA TERZA CARTOLINA -->
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>All'argano</title>
+                    <respStmt>
+                        <resp>Trascrittore</resp>
+                        <name ref="#Pers_AJ"> Ali Al Jabri </name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Trascrittore</resp>
+                        <name ref="#Pers_MDG"> Michele De Giorgi</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Ente di Appartenenza</resp>
+                        <name type="place" ref="#Place_SP">Comune della Spezia</name>
+                    </respStmt>
+                </titleStmt>
+                
+                <editionStmt>
+                    <edition>Edizione digitale diplomatica-interpretativa per l'esame di Codifica dei testi, per il corso di Informatica Umanistica,
+                        <date>2022</date>
+                    </edition>
+                    
+                    <respStmt>
+                        <resp>Trascrittore</resp>
+                        <name ref="#Pers_AJ"> Ali Al Jabri </name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Trascrittore</resp>
+                        <name ref="#Pers_MDG"> Michele De Giorgi</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Compilatore</resp>
+                        <name ref="#Pers_TC">Tommaso Castagneto</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Responsabile scientifico</resp>
+                        <name ref="#Pers_GP">Giacomo Paolicchi</name>
+                        <name ref="#Pers_ES">Enrica Salvatori</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Funzionario responsabile</resp>
+                        <name ref="#Pers_ER">E. Ratti</name>
+                    </respStmt>
+                </editionStmt>
+                
+                <publicationStmt>
+                    <publisher>Università di Pisa</publisher>
+                    <pubPlace>Pisa</pubPlace>
+                    <date when="2022">2022</date>
+                    <availability status="restricted">
+                        <p>Available under licence only</p>
+                    </availability>
+                </publicationStmt>
+                
+                <sourceDesc>
+                    <bibl type="Cartolina" subtype="Cartolina_Artistica">
+                        <title>All'argano</title>
+                        <author>
+                            <persName>
+                                <surname>Pennasilico</surname>
+                                <forename>Giuseppe</forename>
+                            </persName>        
+                        </author>
+                        <textLang>Italiano</textLang>
+                    </bibl>
+
+                    <msDesc>
+                        <msIdentifier> 
+                            <country>Italia</country>
+                            <settlement type="city">La Spezia (SP)</settlement>
+                            <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerra Mondiale</repository>
+                            <idno>7694_126_001/002</idno>
+                        </msIdentifier>
+
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <objectType>Cartolina</objectType>
+                                        <material>Carta</material>
+                                        <dimensions unit="cm">
+                                            <height>9</height>
+                                            <width>14</width>
+                                        </dimensions>
+                                        <stamp> 
+                                            <orgName type="public" ref="Org_PI">Poste Italiane</orgName>
+                                            <title>Effigie di Vittorio Emanuele III volta a sinistra</title>
+                                            <date when="1906">1906</date>
+                                            <dimensions unit="cm">
+                                                <height>24</height>
+                                                <width>20</width>
+                                            </dimensions>
+                                            <figure>
+                                                <figDesc>Effigie di Vittorio Emanuele III volta a sinistra di colore verde</figDesc>
+                                            </figure>
+                                        </stamp>
+                                    </support>
+                                    <condition>Buono</condition>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                    
+                    <listPerson>
+                        <person>
+                            <persName ref="#Pers_G">
+                                <forename>Giovanni</forename>
+                            </persName>
+                            <sex>M</sex>
+                        </person>
+                        <person xml:id="Pers_GT">
+                            <persName>
+                                <forename>Giuseppe</forename>
+                                <surname>Turtura</surname>
+                            </persName>
+                            <sex>M</sex>
+                        </person>
+                    </listPerson>
+
+                    <listPlace>
+                        <place>
+                            <placeName ref="#Place_RV">Ravenna</placeName>
+                            <settlement type="Location">Città</settlement>
+                            <district type="City">Ravenna</district>
+                            <district type="Province">RV</district>
+                            <district type="regione">Emilia Romagna</district>
+                            <country key="Nation">IT</country>
+                        </place>
+
+                        <place xml:id="Place_MO">
+                            <placeName>Modena</placeName>
+                            <settlement type="Location">Città</settlement>
+                            <district type="City">Modena</district>
+                            <district type="Province">MO</district>
+                            <district type="regione">Emilia Romagna</district>
+                            <country key="Nation">IT</country>
+                        </place>                        
+                    </listPlace>
+                </sourceDesc>
+            </fileDesc>
+            
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="#Pers_G"/>
+                        <placeName ref="#Place_MO"/>
+                        <date when="1917-07">07-17</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="#Pers_GT" />
+                        <placeName ref="#Place_RV" />
+                    </correspAction>
+                </correspDesc>
+                
+                <langUsage>
+                    <language ident="it-IT">italiano</language>
+                    <language ident="fr-FR">francese</language>
+                    <language ident="en-EN">inglese</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+
+        <facsimile xml:id="Cart_126">
+            <surfaceGrp> <!--Raggruppa i due surface fronte e retro -->
+                <surface xml:id="Cart_126F" type="front"> <!-- Definisce una superficie di scrittura espressa attraverso coordinate -->
+                    <graphic url="imgs/7694-126F.jpg" width="574px" height="373px" />
+                </surface>
+        
+                <surface xml:id="Cart_126R" type="retro">
+                    <graphic url="imgs/7694-126R.jpg" width="574px" height="373px" />
+                    <!-- Numero del catalogatore aggiunto successivamente -->
+                    <zone xml:id="C3_Added_NumCart" ulx="405" uly="7" lrx="448" lry="42" />
+                    <!-- Francobollo -->
+                    <zone xml:id="C3_Added_Francobollo" points = '487,44 480,53 476,71 477,91 489,104 501,107 519,102 526,91 533,74 528,60 521,49 508,43' />
+                     <!-- Timbro -->
+                    <zone xml:id="C3_Added_Timbro" points = '448,43 437,75 444,103 456,123 487,136 516,135 536,128 556,113 559,93 556,55 547,36 535,25 506,16 467,26' />
+                    <!-- Intestazione: Gentile Sig -->
+                    <zone xml:id="C3_Header_Saluti" ulx="295" uly="139" lrx="454" lry="202" />
+                    <!-- Intestazione: Giuseppe Turtura -->
+                    <zone xml:id="C3_Header_NomeDest" ulx="309" uly="203" lrx="561" lry="239" />
+                    <!-- Intestazione: Via Girolamo Rossi 58-->
+                    <zone xml:id="C3_Header_IndirizzoDest" ulx="305" uly="247" lrx="565" lry="284" />
+                    <!-- Intestazione: Ravenna -->
+                    <zone xml:id="C3_Header_CittaDest" ulx="365" uly="290" lrx="559" lry="355" />
+                    <!-- Città -->
+                    <zone xml:id="C3_Content_LettApp" ulx="243" uly="69" lrx="269" lry="175" /> 
+                    <!-- Data della scrittura -->
+                    <zone xml:id="C3_Content_DataScrittura" ulx="236" uly="178" lrx="280" lry="287"/>
+                    <!-- Contenuto: Affettuosi saluti -->
+                    <zone xml:id="C3_Content_Riga1" ulx="196" uly="58" lrx="226" lry="260" />
+                    <!-- Contenuto: A tutta la famiglia -->
+                    <zone xml:id="C3_Content_Riga2" ulx="156" uly="112" lrx="162" lry="305" />
+                    <!-- Contenuto: ?-->
+                    <zone xml:id="C3_Content_Riga3" ulx="106" uly="46" lrx="117" lry="192" />
+                    <!-- Firma: Giovannino-->
+                    <zone xml:id="C3_Content_Firma" ulx="48" uly="103" lrx="92" lry="341" />
+                    <!-- Cartolina: Info Autore -->
+                    <zone xml:id="C3_Postcard_Element1" ulx="15" uly="314" lrx="154" lry="363"/>  
+                </surface>
+            </surfaceGrp>
+        </facsimile>
+
+        <text type="cartolina">
+            <front facs="#Cart_126F">
+                <figure>
+                    <graphic url='imgs/7694-126F.jpg'/>
+                    <figDesc>Uomini lavorano all'argano in un cantiere</figDesc>
+                    <head>All'argano</head>
+                </figure>
+            </front>
+        
+            <body xml:lang="ita">
+                <div type="retro" facs="#Cart_126R">
+                    <fw type="Numero Cartolina" place="top-left" facs="#C3_Added_NumCart">Il numero 126, nell'angolo superiore destro, 
+                        rappresenta il numero di catalogazione, aggiunto in successione dal catalogatore
+                    </fw>
+
+                    <div type="Destination">
+                        <p>
+                            <stamp type="postmark" facs="#C3_Added_Timbro"> 
+                                <damage>Modena
+                                    <unclear reason="illegible"></unclear>
+                                </damage>
+
+                                <note type="certainty" >
+                                    Data la poca nitidezza dell'immagine, dovuta ad una scansione monocromatica,
+                                    non è possibile ricavare ulteriori informazioni dal timbro.
+                                </note>
+                                <date>07-17</date>
+                            </stamp>
+                            <stamp type="postage" facs="#C3_Added_Francobollo">
+                                Francobollo, interamente coperto dal timbro, emesso da poste italiane, da 5 centesimi di colore verde che rappresenta 
+                                l'effigie di Vittorio Emanuele III volta a sinistra.
+                            </stamp>
+                        </p>
+                    </div>
+
+                    <div type="Message">
+                        <opener>
+                            <lb xml:id="C3_Line_Content_DataProvincia"/>
+                            <dateline>
+                                <placeName xml:id="C3_Int_PMitt" facs="#C3_Content_LettApp" ref="#Place_MO">Modena</placeName>
+                                <date facs="#C3_Content_DataScrittura" when="1917-7-3">li 3/7/1917</date>
+                            </dateline>
+                            
+                            <lb xml:id="C3_Line_Header_Saluti" facs="#C3_Header_Saluti" />
+                            <salute>Gent. Sig.</salute>
+                        </opener> 
+
+                        <ab n="ab_126R">
+                            <address>
+                                <lb xml:id="C3_Line_Header_NomeDest" facs="#C3_Header_NomeDest"/>
+                                <addrLine><persName ref="#Pers_GT">Giuseppe Turtura</persName></addrLine>
+                                <lb xml:id="C3_Line_Header_IndirizzoDest" facs="#C3_Header_IndirizzoDest" />
+                                <addrLine>Via Girolamo Rossi 58</addrLine>
+                                <lb xml:id="C3_Line_Header_CittaDest" facs="#C3_Header_CittaDest" />
+                                <addrLine><placeName ref="#Place_RV"><hi rend="underline">Ravenna</hi></placeName></addrLine>
+                            </address>
+                        </ab>
+
+                        <ab n="ab_126R" xml:id="C3_Content">
+                            <lb xml:id="C3_Line_Content_Riga1" facs="#C3_Content_Riga1" /> 
+                            <w>Affettuosi</w><w>saluti</w>
+                            <lb xml:id="C3_Line_Content_Riga2" facs="#C3_Content_Riga2" /> 
+                            <w>a</w><w>tutta</w><w>la</w><w>famiglia</w>
+                            <lb xml:id="C3_Line_Content_Riga3" facs="#C3_Content_Riga3" />
+                            <w>
+                                <c xml:id="C2_Content_w1_Letter1">l</c>  
+                                <certainty target="C2_Content_w2_Letter1" locus="value" degree="0.6"/>
+                                <c xml:id="C2_Content_w1_Letter2">a</c>  
+                                <certainty target="C2_Content_w2_Letter2" locus="value" degree="0.7"/>
+                               
+                            </w>
+                            <w>
+                                <c xml:id="C2_Content_w2_Letter1">b</c>  
+                                <certainty target="C2_Content_w2_Letter1" locus="value" degree="0.3"/>
+                                <c xml:id="C2_Content_w1_Letter2">u</c>  
+                                <certainty target="C2_Content_w2_Letter2" locus="value" degree="0.4"/>
+                                <c xml:id="C2_Content_w2_Letter3">i</c>  
+                                <certainty target="C2_Content_w2_Letter3" locus="value" degree="0.8"/>
+                            </w>
+                            <note type="certainty" resp="#Pers_AJ">
+                                Poiché non è chiara la calligrafia del mittente, abbiamo codificato
+                                lettera per lettera quella che si presuppone essere una singola parola, 
+                                definendo un grado di incertezza per ogni singola lettera.
+                            </note>
+                        </ab>
+
+                        <closer>
+                            <lb xml:id="C3_Line_Content_Firma" facs="#C3_Content_Firma" />
+                            <signed>
+                                <hi rend="underline">
+                                    <persName ref="#Pers_G">Giovannino</persName>
+                                </hi>
+                            </signed>
+                        </closer>
+                    </div>
+
+                    <div type="Other_Elements">
+                        <p>
+                            <lb xml:id="C3_Line_Postcard_Element1" facs="#C3_Postcard_Element1" />  
+                            <fw>
+                                <seg>G. Pennasilico: </seg>
+                                <seg xml:lang="#it-IT">All'argano.</seg> 
+                                <seg xml:lang="#fr-FR">A l'argue.</seg>
+                                <seg xml:lang="#en-EN">Hard work.</seg>
+                            </fw>
+                        </p>    
+                    </div>
+                </div>
+            </body>
+        </text>
+    </TEI>
+</teiCorpus>
