@@ -75,6 +75,10 @@ back_btn.addEventListener("click", (e) => {
 })
 
 for (let area of areas) {
+    area.addEventListener("onclick", (e) => {
+        e.preventDefault()
+    });
+    
     area.addEventListener("mouseover", (e) => {
         hightlight(area);
     });
