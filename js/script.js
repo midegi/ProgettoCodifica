@@ -75,7 +75,7 @@ back_btn.addEventListener("click", (e) => {
 })
 
 for (let area of areas) {
-    area.addEventListener("onclick", (e) => {
+    area.addEventListener("click", (e) => {
         e.preventDefault()
     });
     
