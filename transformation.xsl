@@ -17,11 +17,9 @@
                     <div class="header-desc">
                         <h1>Progetto Codifica: Cartoline della Prima Guerra Mondiale</h1>
                         <p>
-                            Il progetto, realizzato da <strong><i><xsl:value-of select="tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt[1]/tei:name" />
-                            (matr. <xsl:value-of select="tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt[1]/tei:idno"/></i>)</strong>
-                            e da <strong><i><xsl:value-of select="tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt[2]/tei:name"/>
-                            (matr. <xsl:value-of select="tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt[2]/tei:idno"/></i>)</strong>
-                            contiene la codifica basata su <strong><i><xsl:value-of select="tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:editionStmt/tei:edition"/></i></strong>,
+                            Il progetto, realizzato da <strong><i><xsl:value-of select="tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt[1]/tei:name" /></i></strong>
+                            e da <strong><i><xsl:value-of select="tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt[2]/tei:name"/></i></strong>
+                             contiene la codifica basata su <strong><i><xsl:value-of select="tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:editionStmt/tei:edition"/></i></strong>,
                             provenenti dal 
                             <strong><i><xsl:value-of select="tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:repository"/></i></strong>,
                             situato presso <strong><i><xsl:value-of select="tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:settlement"/></i></strong>.
@@ -671,9 +669,8 @@
                 del professore Angelo Mario del Grosso, <strong><xsl:value-of select="tei:publicationStmt/tei:publisher" /></strong>.
             </xsl:element>
             <xsl:element name="p">
-                <strong>Trascrizione e codifica a cura di: </strong> <xsl:value-of select="tei:titleStmt/tei:respStmt[1]/tei:name"/> (matr.  
-                <xsl:value-of select="tei:titleStmt/tei:respStmt[1]/tei:idno"/>)
-                e di <xsl:value-of select="tei:titleStmt/tei:respStmt[2]/tei:name"/> (matr. <xsl:value-of select="tei:titleStmt/tei:respStmt[2]/tei:idno"/>).
+                <strong>Trascrizione e codifica a cura di: </strong> <xsl:value-of select="tei:titleStmt/tei:respStmt[1]/tei:name"/> 
+                e di <xsl:value-of select="tei:titleStmt/tei:respStmt[2]/tei:name"/>.
             </xsl:element>
             
         </div>

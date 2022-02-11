@@ -78,7 +78,7 @@ for (let area of areas) {
     area.addEventListener("click", (e) => {
         e.preventDefault()
     });
-    
+
     area.addEventListener("mouseover", (e) => {
         hightlight(area);
     });

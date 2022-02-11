@@ -11,13 +11,11 @@
                 <respStmt>
                     <resp>Trascrittore</resp>
                     <name type="person" xml:id="Pers_AJ">Ali Al Jabri</name>
-                    <idno>587440</idno> 
                 </respStmt>
 
                 <respStmt>
                     <resp>Trascrittore</resp>
                     <name type="person" xml:id="Pers_MDG">Michele De Giorgi</name>
-                    <idno>597916</idno> 
                 </respStmt>
                 
                 <respStmt>
@@ -681,20 +679,20 @@
                             <lb xml:id="C2_Line_Content_Riga4" facs="#C2_Content_Riga4" /> 
                             <w>G.</w><w>Magi</w>
                             <w>
-                                <c xml:id="C2_Content_w1_Letter1">M</c>  
+                                <c xml:id="C2_Content_w2_Letter1">M</c>  
                                 <certainty target="C2_Content_w2_Letter1" locus="value" degree="0.9"/>
-                                <c xml:id="C2_Content_w1_Letter2">o</c>  
+                                <c xml:id="C2_Content_w2_Letter2">o</c>  
                                 <certainty target="C2_Content_w2_Letter2" locus="value" degree="0.7"/>
                                 <c xml:id="C2_Content_w2_Letter3">f</c>  
                                 <certainty target="C2_Content_w2_Letter3" locus="value" degree="0.2"/>
-                                <c xml:id="C2_Content_w1_Letter4">i</c>  
-                                <certainty target="C2_Content_w2_Letter3" locus="value" degree="0.2"/>
-                                <c xml:id="C2_Content_w1_Letter5">v</c>  
-                                <certainty target="C2_Content_w2_Letter4" locus="value" degree="0.3"/>
+                                <c xml:id="C2_Content_w2_Letter4">i</c>  
+                                <certainty target="C2_Content_w2_Letter4" locus="value" degree="0.2"/>
+                                <c xml:id="C2_Content_w2_Letter5">v</c>  
+                                <certainty target="C2_Content_w2_Letter5" locus="value" degree="0.3"/>
                                 <c xml:id="C2_Content_w2_Letter6">l</c>  
-                                <certainty target="C2_Content_w2_Letter5" locus="value" degree="0.8"/>
+                                <certainty target="C2_Content_w2_Letter6" locus="value" degree="0.8"/>
                                 <c xml:id="C2_Content_w1_Letter7">a</c>  
-                                <certainty target="C2_Content_w2_Letter6" locus="value" degree="0.9"/>
+                                <certainty target="C2_Content_w2_Letter7" locus="value" degree="0.9"/>
                             </w>       
                             <note type="certainty" resp="#Pers_AJ">
                                 Poiché non è chiara la calligrafia del mittente, abbiamo codificato
@@ -988,19 +986,19 @@
                             <w>a</w><w>tutta</w><w>la</w><w>famiglia</w>
                             <lb xml:id="C3_Line_Content_Riga3" facs="#C3_Content_Riga3" />
                             <w>
-                                <c xml:id="C2_Content_w1_Letter1">l</c>  
-                                <certainty target="C2_Content_w2_Letter1" locus="value" degree="0.6"/>
-                                <c xml:id="C2_Content_w1_Letter2">a</c>  
-                                <certainty target="C2_Content_w2_Letter2" locus="value" degree="0.7"/>
+                                <c xml:id="C3_Content_w1_Letter1">l</c>  
+                                <certainty target="C3_Content_w1_Letter1" locus="value" degree="0.6"/>
+                                <c xml:id="C3_Content_w1_Letter2">a</c>  
+                                <certainty target="C3_Content_w1_Letter2" locus="value" degree="0.7"/>
                                
                             </w>
                             <w>
-                                <c xml:id="C2_Content_w2_Letter1">b</c>  
-                                <certainty target="C2_Content_w2_Letter1" locus="value" degree="0.3"/>
-                                <c xml:id="C2_Content_w1_Letter2">u</c>  
-                                <certainty target="C2_Content_w2_Letter2" locus="value" degree="0.4"/>
-                                <c xml:id="C2_Content_w2_Letter3">i</c>  
-                                <certainty target="C2_Content_w2_Letter3" locus="value" degree="0.8"/>
+                                <c xml:id="C3_Content_w2_Letter1">b</c>  
+                                <certainty target="C3_Content_w2_Letter1" locus="value" degree="0.3"/>
+                                <c xml:id="C3_Content_w2_Letter2">u</c>  
+                                <certainty target="C3_Content_w2_Letter2" locus="value" degree="0.4"/>
+                                <c xml:id="C3_Content_w2_Letter3">i</c>  
+                                <certainty target="C3_Content_w2_Letter3" locus="value" degree="0.8"/>
                             </w>
                             <note type="certainty" resp="#Pers_AJ">
                                 Poiché non è chiara la calligrafia del mittente, abbiamo codificato
